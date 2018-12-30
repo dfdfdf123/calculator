@@ -7,7 +7,7 @@ $ git clone git@github.com:johnromanoff/calculator.git
 ```
 
 ```sh
-$ cd react-calculator
+$ cd calculator
 ```
 
 ```sh
