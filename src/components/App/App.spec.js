@@ -14,6 +14,6 @@ describe('App', () => {
   });
 
   it('should render the Calculator Component', () => {
-    expect(wrapper.containsMatchingElement(<Calculator />).toEqual(true));
+    expect(wrapper.containsMatchingElement(<Calculator />)).toEqual(true);
   });
 });
