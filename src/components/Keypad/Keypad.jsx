@@ -1,4 +1,5 @@
 import React from 'react';
+import Key from '../Key/Key';
 import './Keypad.css';
 
 const Keypad = ({
@@ -20,6 +21,11 @@ const Keypad = ({
       <div className="operators-container">
         {operatorKeys}
       </div>
+      <Key
+        keyAction={callOperator}
+        keyType=""
+        keyValue=""
+      />
     </div>
   );
 }
